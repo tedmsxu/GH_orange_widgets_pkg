@@ -1,0 +1,2 @@
+[orange.widgets]
+Custom Widgets = GH_orange_widgets.widgets

@@ -1,0 +1,7 @@
+setup.py
+GH_orange_widgets.egg-info/PKG-INFO
+GH_orange_widgets.egg-info/SOURCES.txt
+GH_orange_widgets.egg-info/dependency_links.txt
+GH_orange_widgets.egg-info/entry_points.txt
+GH_orange_widgets.egg-info/not-zip-safe
+GH_orange_widgets.egg-info/top_level.txt

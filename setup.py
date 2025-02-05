@@ -1,15 +1,15 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="GH_orange_widgets",  # Name of your package
+    name="GH_orange_widgets",
     version="0.1",
-    packages=find_packages(),   # Automatically discover all packages
-    install_requires=["orange3"],  # Ensure Orange is installed
-    # entry_points={
-    #     "orange.widgets": [
-    #         "GH_orange_custom_widgets = GH_orange_custom_widgets.widgets",  # Register widgets
-    #     ],
-    # },
-    include_package_data=True,  # Include icons and other files
-    zip_safe=False,             # Do not zip the package
+    description="Custom Orange add-on widgets",
+    packages=find_packages(),  # Automatically find packages (e.g., GH_orange_widgets)
+    entry_points={
+        "orange.widgets": [
+            "Custom Widgets = GH_orange_widgets.widgets",  # Register widgets
+        ],
+    },
+    include_package_data=True,  # Include non-code files like icons
+    zip_safe=False,
 )
